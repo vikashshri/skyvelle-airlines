@@ -41,7 +41,6 @@
 
 ### 🔧 Admin Panel
 - **Dashboard** — Live stats: revenue, bookings, customers, active flights
-- **Recent bookings table** with customer names and status
 - **Top routes** with booking counts and bar charts
 - **Add / Delete Flights**
 - **Add / Deactivate Aircraft**
@@ -59,8 +58,8 @@ skyvelle/
 ├── new_user.php                          # Customer registration
 ├── logout_handler.php                    # Session destroy
 │
-├── customer_homepage.php                 # Customer dashboard
-├── profile.php                           # Customer profile
+├── homepage.php                          # Customer dashboard
+├── profile2.php                           # Customer profile
 ├── edit_profile.php                      # Edit profile & password
 │
 ├── book_tickets.php                      # Flight search form
@@ -111,33 +110,6 @@ skyvelle/
 
 ---
 
-## ⚙️ Setup Instructions
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/vikashshri/skyvelle-airlines.git
-   ```
-
-2. **Move to XAMPP**
-   - Copy the project folder to `C:/xampp/htdocs/`
-
-3. **Import the database**
-   - Open `phpMyAdmin` → Create database `airline_reservation`
-   - Import the provided `.sql` file
-
-4. **Configure DB connection**
-   - Create `Database Connection file/mysqli_connect.php`
-   ```php
-   <?php
-   $dbc = mysqli_connect('localhost', 'root', '', 'airline_reservation');
-   ?>
-   ```
-
-5. **Start XAMPP**
-   - Start **Apache** and **MySQL**
-   - Visit `http://localhost/skyvelle/homepage.php`
-
----
 
 ## 📸 Pages Overview
 
@@ -167,4 +139,4 @@ This project is for educational purposes.
 
 ---
 
-> *"Fly Beyond the Horizon"* ✈ — Skyvelle Airlines
+> *"Where Destination meets Dreams "* ✈ — Skyvelle Airlines
