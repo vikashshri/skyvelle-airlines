@@ -96,20 +96,6 @@ skyvelle/
 
 ---
 
-## 🗄️ Database Schema
-
-**Tables:**
-- `customer` — customer_id, name, email, phone_no, address, pwd
-- `flight_details` — flight_no, from_city, to_city, departure_date, arrival_date, departure_time, arrival_time, seats_economy, seats_business, price_economy, price_business, jet_id
-- `ticket_details` — pnr, date_of_reservation, flight_no, journey_date, class, booking_status, no_of_passengers, lounge_access, priority_checkin, insurance, payment_id, customer_id, cancellation_reason
-- `passengers` — passenger_id, pnr, name, age, gender, seat_no, meal_choice, frequent_flier_no
-- `payment_details` — payment_id, pnr, payment_date, payment_amount, payment_mode, card_holder_name, card_number, expiry_month, expiry_year, transaction_id, payment_status
-- `frequent_flier_details` — frequent_flier_no, customer_id, mileage
-- `jet_details` — jet_id, jet_type, total_capacity, active
-- `admin` — admin credentials
-
----
-
 
 ## 📸 Pages Overview
 
